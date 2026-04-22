@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Arogya Maa - Counselling &amp; Support</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-tint": "#6d4ea3",
+                        "on-tertiary-fixed-variant": "#39636f",
+                        "secondary-fixed-dim": "#f2cead",
+                        "inverse-on-surface": "#9d9d9e",
+                        "on-error-container": "#6e0523",
+                        "error": "#a8364b",
+                        "inverse-primary": "#c2a0fc",
+                        "tertiary": "#3b6571",
+                        "secondary": "#755a40",
+                        "surface-container-lowest": "#ffffff",
+                        "background": "#faf9fa",
+                        "primary-fixed-dim": "#b493ed",
+                        "tertiary-fixed-dim": "#b3deec",
+                        "on-secondary-fixed": "#523b23",
+                        "on-surface-variant": "#5c5f62",
+                        "secondary-dim": "#684e35",
+                        "outline": "#787b7d",
+                        "secondary-container": "#ffdcbe",
+                        "primary-container": "#E6E6FA",
+                        "on-tertiary-fixed": "#1a4752",
+                        "on-secondary-fixed-variant": "#71563d",
+                        "on-secondary": "#fff7f4",
+                        "on-background": "#303335",
+                        "surface-container": "#edeef0",
+                        "tertiary-dim": "#2f5965",
+                        "surface-dim": "#d8dadd",
+                        "on-primary-fixed-variant": "#46267a",
+                        "on-primary": "#121220",
+                        "surface-container-high": "#e7e8ea",
+                        "on-tertiary-container": "#2f5965",
+                        "on-secondary-container": "#664d34",
+                        "outline-variant": "#b0b2b5",
+                        "surface": "#faf9fa",
+                        "inverse-surface": "#0d0e0f",
+                        "primary-fixed": "#E6E6FA",
+                        "error-dim": "#6b0221",
+                        "primary-dim": "#614296",
+                        "surface-bright": "#faf9fa",
+                        "error-container": "#f97386",
+                        "surface-container-low": "#f3f3f5",
+                        "primary": "#8B5CF6",
+                        "surface-variant": "#e1e3e5",
+                        "secondary-fixed": "#ffdcbe",
+                        "on-primary-container": "#22004f",
+                        "tertiary-container": "#c1ecfb",
+                        "on-surface": "#303335",
+                        "on-error": "#fff7f7",
+                        "surface-container-highest": "#e1e3e5",
+                        "on-tertiary": "#f0fbff",
+                        "tertiary-fixed": "#c1ecfb",
+                        "on-primary-fixed": "#22004f"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Be Vietnam Pro"],
+                        "label": ["Be Vietnam Pro"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-nav {
+            background: rgba(250, 249, 250, 0.2);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background font-body text-on-background selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-[#faf9fa] dark:bg-slate-950/80 backdrop-blur-xl">
+<div class="flex items-center gap-3">
+<img alt="Arogya Maa Logo" class="h-12 w-auto object-contain" src="ArogyaMaa Logo.png"/>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-full hover:bg-[#edeef0] transition-colors text-[#6d4ea3]">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+</div>
+</header>
+<main class="pt-24 pb-32 px-6 max-w-7xl mx-auto">
+<!-- Hero Section: Reassuring Copy -->
+<section class="mb-12">
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary-container/20 to-secondary-container/30 p-8 md:p-12">
+<div class="relative z-10 max-w-2xl">
+<span class="inline-block px-4 py-1 rounded-full bg-white/50 text-primary font-label text-sm mb-4">You're not alone</span>
+<h2 class="text-4xl md:text-5xl font-headline font-bold text-on-surface mb-6 leading-tight">Your well-being is our <span class="text-primary">heart's priority</span>.</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-8">
+                        Whether you need a listening ear, professional guidance, or a community that understands, we are here to walk this journey with you.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="px-8 py-4 bg-gradient-to-br from-[#6d4ea3] to-[#c2a0fc] text-on-primary rounded-full font-bold shadow-lg hover:scale-105 transition-transform">
+                            Speak to Someone Now
+                        </button>
+<button class="px-8 py-4 bg-surface-container-highest text-on-surface rounded-full font-bold hover:bg-surface-container-high transition-colors">
+                            Explore Circles
+                        </button>
+</div>
+</div>
+<!-- Abstract Ethereal Shape -->
+<div class="absolute -right-20 -top-20 w-80 h-80 bg-tertiary-container/30 rounded-full blur-[100px]"></div>
+<div class="absolute right-10 bottom-0 w-64 h-64 bg-secondary-container/40 rounded-full blur-[80px]"></div>
+</div>
+</section>
+<!-- Emergency & Find Counselor Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+<!-- Sidebar: Emergency Help -->
+<div class="lg:col-span-1 space-y-6">
+<div class="p-8 rounded-lg bg-error-container/10 border border-error/10">
+<div class="flex items-center gap-3 mb-4 text-error">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<h3 class="font-headline font-bold text-xl">Emergency Help</h3>
+</div>
+<p class="text-on-surface-variant mb-6 text-sm">If you are in immediate distress or need urgent support, please reach out to our 24/7 helplines.</p>
+<div class="space-y-3">
+<a class="flex items-center justify-between p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow group" href="tel:1800">
+<span class="font-bold text-on-surface">Maternal Crisis Line</span>
+<span class="material-symbols-outlined text-error group-hover:translate-x-1 transition-transform">call</span>
+</a>
+<a class="flex items-center justify-between p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow group" href="#">
+<span class="font-bold text-on-surface">Instant Chat Support</span>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-1 transition-transform">chat_bubble</span>
+</a>
+</div>
+</div>
+<div class="p-8 rounded-lg bg-surface-container-low">
+<h3 class="font-headline font-bold text-xl mb-4 text-on-surface">Weekly Wellness Tip</h3>
+<p class="italic text-on-surface-variant leading-relaxed">
+                        "Gentle movements and deep breathing for just 5 minutes a day can significantly lower cortisol levels in new mothers."
+                    </p>
+<div class="mt-6 flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">spa</span>
+<span class="text-xs font-bold uppercase tracking-wider text-secondary">Care Routine</span>
+</div>
+</div>
+</div>
+<!-- Main Content: Find a Counsellor -->
+<div class="lg:col-span-2">
+<div class="flex items-center justify-between mb-8">
+<h3 class="text-3xl font-headline font-bold text-on-surface">Find a Specialist</h3>
+<button class="text-primary font-bold flex items-center gap-1 hover:underline">
+                        View All <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Specialist Card 1 -->
+<div class="group relative bg-surface-container-lowest p-6 rounded-xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary-container/20">
+<div class="flex gap-4 items-start mb-4">
+<div class="w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="Dr. Priya Nair" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Professional headshot of a friendly Indian female therapist with a warm smile, wearing a soft teal saree, clean studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLoy7MhT-vIYTitxgdEmQKVF1ZkKXHHkANJ7wFKeU0OlyjoVzCOH3hr4yw_iPcKstpYIHNKZLi4upZjz7Jf8MG6Qlax5_UC6suko26_tpQdkhBihGz9juaH4rlDRDCJeWdTsJDUjeC9OBXMbYl_orsrfb4wslr3yT_XyFK9ApV4HTsPO16-PZ3_Q01sMIIw6VU4GWccW9t6xgMPHfHUyUXQLGUDIuNY3ZFWKVlq2-jaJwssFfZmxF2E4YGZA4oQEPkPbk2l28-bXew"/>
+</div>
+<div>
+<h4 class="font-headline font-bold text-lg text-on-surface">Dr. Priya Nair</h4>
+<p class="text-sm text-primary font-medium">Postpartum Depression Specialist</p>
+<div class="flex items-center gap-1 mt-1 text-secondary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-xs font-bold">4.9 (120+ reviews)</span>
+</div>
+</div>
+</div>
+<p class="text-sm text-on-surface-variant line-clamp-2 mb-6">Expert in helping new mothers navigate the transition to parenthood with cognitive behavioral therapy.</p>
+<button class="w-full py-3 bg-surface-container-low text-on-surface rounded-full font-bold group-hover:bg-primary group-hover:text-on-primary transition-colors">
+                            Book a Session
+                        </button>
+</div>
+<!-- Specialist Card 2 -->
+<div class="group relative bg-surface-container-lowest p-6 rounded-xl hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary-container/20">
+<div class="flex gap-4 items-start mb-4">
+<div class="w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="Ananya Sharma" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Portrait of a kind South Asian female counsellor in a pastel pink saree, soft natural window lighting, peaceful expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4L90TXcdRuYD_8q85GJOl8IFUtMpQlhy8TSoTq7XW8CYcP1LwloO5U6-4fHr9_FtXT5amnIOA5tUAodtn_5BgOW1_wqxo2Pzgz_baZWhmN684kfUmBp0YJMVrwMep5Ecjx_CiowfPuaLUt6B8h-N6lo-rl1sHpjeKGp-JtIjuDErf7cGyjsKAU7vZmjkI3QuYlf8aGWsRHX0f_bqasRI_IZ1XPeL0Fb4Ov0O2e0nn-nXEo5yCykiteLPRHWjJf8zl7zP2_brlnlN-"/>
+</div>
+<div>
+<h4 class="font-headline font-bold text-lg text-on-surface">Ananya Sharma</h4>
+<p class="text-sm text-primary font-medium">Lactation &amp; Wellness Coach</p>
+<div class="flex items-center gap-1 mt-1 text-secondary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-xs font-bold">4.8 (85+ reviews)</span>
+</div>
+</div>
+</div>
+<p class="text-sm text-on-surface-variant line-clamp-2 mb-6">Supporting holistic physical and mental recovery through personalized wellness roadmaps.</p>
+<button class="w-full py-3 bg-surface-container-low text-on-surface rounded-full font-bold group-hover:bg-primary group-hover:text-on-primary transition-colors">
+                            Book a Session
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Support Circles Section -->
+<section class="mb-12">
+<div class="flex items-end justify-between mb-8">
+<div>
+<h3 class="text-3xl font-headline font-bold text-on-surface mb-2">Support Circles</h3>
+<p class="text-on-surface-variant">Find your tribe in our moderated community spaces.</p>
+</div>
+<div class="hidden md:flex gap-2">
+<button class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Bento Grid Support Circles -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+<!-- Main Circle -->
+<div class="md:col-span-2 row-span-2 bg-secondary-container/20 rounded-xl p-8 flex flex-col justify-between relative overflow-hidden">
+<div class="relative z-10">
+<span class="bg-secondary text-on-secondary px-3 py-1 rounded-full text-xs font-bold mb-4 inline-block">Trending Circle</span>
+<h4 class="text-2xl font-headline font-bold text-on-surface mb-4">First-Time Mamas</h4>
+<p class="text-on-surface-variant mb-6">A safe space for those navigating the beautiful chaos of their first postpartum year.</p>
+<div class="flex -space-x-2 mb-6">
+<img alt="avatar" class="w-8 h-8 rounded-full border-2 border-white" data-alt="User avatar 1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiQHG3cI2WIxVVlZmNBLgeRPr0NdJ7kv4BMGKhcx95WfroIiNx36qLh85u58m6JxsqGizjXyg6clksLtWxIlHdiHoNI5lmgyExfaIuqRW3qe1y9e2tneVIYZ5u4LvQMhZtBqlxTnDuC61BZhEfaUg4TXIUxRCOocBZ6RTrdD8KuqT4RU8cn8TbI3HpSeAqO5asoFuUTgtDb7PV35ECr_-x1mgxftuLk0sZ0ZPIc1eAlYW6jMiQvx5O6na1UcHvtqDEh-e3O7I6i4qZ"/>
+<img alt="avatar" class="w-8 h-8 rounded-full border-2 border-white" data-alt="User avatar 2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWw-4TzULz2gba0gmVypdmiXYlVC8beXIIQoIgeDUznOuQrYha8eXI7V7XnlgvNzu3n-FXxQycnylGsXexLyhQfk_jMiSwDe676zIZazoN98jf3TI6IDi6Q6LjkITsv0zndpoy3j5Ck89jaRdoSVwILPZoow0xUUEJyHNxMAGGNYF6QrzPQio2BeQDqYOALtmUgmy1c__n6BQOfWY9qj4yBNUAb4HYLC_lTK274J11GA7ieuxYbfhgz4FmtbfHLNFlTy5ixM72aSpR"/>
+<img alt="avatar" class="w-8 h-8 rounded-full border-2 border-white" data-alt="User avatar 3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-12o73J99m9puvuV0LioGP5Q4YjmsWQZ_EpId3XlA0r4rnqk0ECZmqi4hExo3ELNlYM4Iw05mJKa5wXctHUWqfacoQlC87SCWspM8wFlCxIFk-R6TLYAkiZOs1V3sLBAfCWZyhuhC_jvVzU8msXdASf65L9Z9CLliNOdde574o5YDm2IqQ7XdsqlINIM_8BLxk6iX2IPN7Zl1GC5kHVLGAPEDmVMdfH7pzA2sE3lP39ydi1qr8HmcmtdHMWl0FbDq6VAeRW3oYSMk"/>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-secondary flex items-center justify-center text-[10px] text-white font-bold">+1.2k</div>
+</div>
+</div>
+<button class="relative z-10 w-fit px-6 py-3 bg-on-surface text-surface rounded-full font-bold hover:opacity-90 transition-opacity">
+                        Join Discussion
+                    </button>
+<span class="absolute -bottom-10 -right-10 material-symbols-outlined text-[180px] opacity-5 text-secondary">groups</span>
+</div>
+<!-- Secondary Circles -->
+<div class="md:col-span-2 bg-primary-container/10 rounded-xl p-6 flex items-center justify-between group cursor-pointer hover:bg-primary-container/20 transition-colors">
+<div>
+<h4 class="font-headline font-bold text-on-surface">Sleep Support</h4>
+<p class="text-sm text-on-surface-variant">Sharing tips for better rest.</p>
+</div>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform">arrow_forward</span>
+</div>
+<div class="md:col-span-1 bg-tertiary-container/10 rounded-xl p-6 flex flex-col justify-center text-center hover:bg-tertiary-container/20 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-tertiary mb-2 text-3xl">restaurant</span>
+<h4 class="font-headline font-bold text-on-surface text-sm">Postpartum Nutrition</h4>
+</div>
+<div class="md:col-span-1 bg-surface-container rounded-xl p-6 flex flex-col justify-center text-center hover:bg-surface-container-high transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-on-surface-variant mb-2 text-3xl">self_improvement</span>
+<h4 class="font-headline font-bold text-on-surface text-sm">Mindful Movement</h4>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-2 bg-white/30 backdrop-blur-2xl rounded-t-[3rem] border-t border-[#6d4ea3]/10">
+
+<!-- HOME -->
+<a href="dashboard.html" class="flex flex-col items-center justify-center text-gray-500">
+    <span class="material-symbols-outlined">home</span>
+    <span class="text-[11px] font-semibold">Home</span>
+</a>
+
+<!-- CARE -->
+<a href="care_guidance.html" class="flex flex-col items-center justify-center text-gray-500">
+    <span class="material-symbols-outlined">spa</span>
+    <span class="text-[11px] font-semibold">Care</span>
+</a>
+
+<!-- SUPPORT (ACTIVE) -->
+<a href="support.html" class="flex flex-col items-center justify-center relative">
+    
+    <div class="absolute -top-2 w-14 h-14 bg-gradient-to-br from-[#6d4ea3] to-[#c2a0fc] rounded-full z-0"></div>
+    
+    <span class="material-symbols-outlined text-white z-10" style="font-variation-settings:'FILL' 1;">group</span>
+    <span class="text-[11px] font-semibold text-white z-10">Support</span>
+</a>
+
+<!-- RESOURCES -->
+<a href="resources.html" class="flex flex-col items-center justify-center text-gray-500">
+    <span class="material-symbols-outlined">menu_book</span>
+    <span class="text-[11px] font-semibold">Resources</span>
+</a>
+
+</nav>
+<!-- Contextual FAB (Hidden on Mobile, Visible on Web/Tablet Side) -->
+<div class="fixed right-8 bottom-28 hidden md:block">
+<button class="w-16 h-16 rounded-full bg-primary text-on-primary shadow-xl flex items-center justify-center hover:scale-110 transition-transform active:scale-95">
+<span class="material-symbols-outlined text-3xl">chat</span>
+</button>
+</div>
+</body></html>

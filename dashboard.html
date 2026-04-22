@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-tint": "#8a6bb1",
+                        "on-tertiary-fixed-variant": "#39636f",
+                        "secondary-fixed-dim": "#f2cead",
+                        "inverse-on-surface": "#9d9d9e",
+                        "on-error-container": "#6e0523",
+                        "error": "#a8364b",
+                        "inverse-primary": "#d7c5f0",
+                        "tertiary": "#3b6571",
+                        "secondary": "#755a40",
+                        "surface-container-lowest": "#ffffff",
+                        "background": "#faf9fa",
+                        "primary-fixed-dim": "#d7c5f0",
+                        "tertiary-fixed-dim": "#b3deec",
+                        "on-secondary-fixed": "#523b23",
+                        "on-surface-variant": "#5c5f62",
+                        "secondary-dim": "#684e35",
+                        "outline": "#787b7d",
+                        "secondary-container": "#ffdcbe",
+                        "primary-container": "#f3ebff",
+                        "on-tertiary-fixed": "#1a4752",
+                        "on-secondary-fixed-variant": "#71563d",
+                        "on-secondary": "#fff7f4",
+                        "on-background": "#303335",
+                        "surface-container": "#edeef0",
+                        "tertiary-dim": "#2f5965",
+                        "surface-dim": "#d8dadd",
+                        "on-primary-fixed-variant": "#533c7a",
+                        "on-primary": "#fef7ff",
+                        "surface-container-high": "#e7e8ea",
+                        "on-tertiary-container": "#2f5965",
+                        "on-secondary-container": "#664d34",
+                        "outline-variant": "#b0b2b5",
+                        "surface": "#faf9fa",
+                        "inverse-surface": "#0d0e0f",
+                        "primary-fixed": "#f3ebff",
+                        "error-dim": "#6b0221",
+                        "primary-dim": "#7a59a3",
+                        "surface-bright": "#faf9fa",
+                        "error-container": "#f97386",
+                        "surface-container-low": "#f3f3f5",
+                        "primary": "#8a6bb1",
+                        "surface-variant": "#e1e3e5",
+                        "secondary-fixed": "#ffdcbe",
+                        "on-primary-container": "#2a144e",
+                        "tertiary-container": "#c1ecfb",
+                        "on-surface": "#303335",
+                        "on-error": "#fff7f7",
+                        "surface-container-highest": "#e1e3e5",
+                        "on-tertiary": "#f0fbff",
+                        "tertiary-fixed": "#c1ecfb",
+                        "on-primary-fixed": "#1d0041"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Be Vietnam Pro"],
+                        "label": ["Be Vietnam Pro"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background-color: #faf9fa;
+        }
+        h1, h2, h3 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="text-on-background selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-[#faf9fa] dark:bg-slate-950/80 backdrop-blur-xl">
+<div class="flex items-center gap-3 flex items-center gap-2">
+<img alt="Arogya Maa Logo" class="h-10 w-auto object-contain" src="ArogyaMaa Logo.png">ArogyaMaa</span>
+</div>
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-[#edeef0] dark:hover:bg-slate-800 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-[#6d4ea3]" data-icon="notifications">notifications</span>
+</button>
+</header>
+<main class="pt-24 pb-32 px-6 max-w-5xl mx-auto">
+<!-- Greeting Section -->
+<section class="mb-10">
+<h1 class="text-4xl md:text-5xl font-extrabold text-on-surface tracking-tight mb-2">Good morning, Mama.</h1><p class="text-xl md:text-2xl font-semibold text-primary/80 italic mb-2 font-display tracking-tight">Postpartum, redefined.</p>
+<p class="text-lg text-on-surface-variant font-medium">Today is a beautiful day to nurture yourself and your little one.</p>
+</section>
+<!-- Quick Action Buttons: Horizontal Scroll / Flex Cluster -->
+<section class="mb-12">
+<div class="flex flex-wrap gap-4">
+<button class="flex items-center gap-3 px-6 py-4 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-full shadow-lg hover:opacity-90 transition-all active:scale-95">
+<span class="material-symbols-outlined" data-icon="restaurant">restaurant</span>
+<span class="font-bold">Log Feed</span>
+</button>
+<button class="flex items-center gap-3 px-6 py-4 bg-tertiary-container text-on-tertiary-container rounded-full hover:bg-tertiary-fixed transition-all active:scale-95">
+<span class="material-symbols-outlined" data-icon="bedtime">bedtime</span>
+<span class="font-bold">Track Sleep</span>
+</button>
+<button class="flex items-center gap-3 px-6 py-4 bg-secondary-container text-on-secondary-container rounded-full hover:bg-secondary-fixed transition-all active:scale-95">
+<span class="material-symbols-outlined" data-icon="mood">mood</span>
+<span class="font-bold">My Mood</span>
+</button>
+</div>
+</section>
+<!-- Bento Grid: Today's Highlights & Reminders -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Today's Highlights (Bento Large) -->
+<div class="md:col-span-2 space-y-6">
+<h2 class="text-2xl font-bold text-on-surface px-2">Today's Highlights</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Meditation Card -->
+<div class="group relative overflow-hidden bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all border border-transparent hover:border-primary/10">
+<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-8xl" data-icon="self_improvement">self_improvement</span>
+</div>
+<div class="relative z-10">
+<div class="w-12 h-12 bg-tertiary-container text-tertiary rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined" data-icon="self_improvement">self_improvement</span>
+</div>
+<h3 class="text-xl font-bold mb-2">10-minute meditation</h3>
+<p class="text-on-surface-variant text-sm mb-4">Focus on your breath to regain center and calm.</p>
+<span class="text-xs font-bold uppercase tracking-widest text-tertiary bg-tertiary-container/30 px-3 py-1 rounded-full">Recommended</span>
+</div>
+</div>
+<!-- Hydration Card -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-transparent flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-primary-container text-primary rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined" data-icon="water_drop">water_drop</span>
+</div>
+<h3 class="text-xl font-bold mb-1">Hydration Goal</h3>
+<p class="text-on-surface-variant text-sm mb-6">You're doing great! 6/8 glasses reached.</p>
+</div>
+<div class="w-full bg-surface-container rounded-full h-3">
+<div class="bg-gradient-to-r from-primary to-primary-container h-3 rounded-full" style="width: 75%"></div>
+</div>
+</div>
+<!-- Wellness Insight (Bento Wide) -->
+<div class="sm:col-span-2 bg-secondary-container/40 p-8 rounded-xl flex items-center gap-6">
+<div class="hidden sm:block w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="Healthy snack" class="w-full h-full object-cover" data-alt="Flat lay of colorful fresh fruits and nuts on a soft ceramic plate, bright airy morning lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKwncVpRdolNOWiex5U1BZQZGtcNa7Hgm9-axct6hP6cqzztYHLgdG5SkpIKI_QbJo0X-SFx_2fGSk-fuo9mLaryyY1aZu9TzVhEULFm7CVrfEEpvIlET9IFOksl0NVfMzx9GcpnB5CWJdJ89FrGRlTtHUd_jJfOoxq6xt40ABrm7eLZeKTlhxk95MIziWbsiwkga6y7NSEyMUNzHAQq1j-1NFzl3kgJg1E37Nb1v-CU52lpDnbXJWYvp_gtBVAGtDP-m6NcTbJ8_p"/>
+</div>
+<div>
+<h3 class="text-lg font-bold text-on-secondary-container">Postpartum Nutrition</h3>
+<p class="text-on-secondary-container/80 text-sm leading-relaxed mb-3">Rich in Omega-3s, today's suggested snack is walnuts and berries to help with brain fog and recovery.</p>
+<button class="text-primary font-bold text-sm flex items-center gap-1 hover:underline">
+                                Read more <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Coming Up / Reminders (Side Column) -->
+<div class="space-y-6">
+<h2 class="text-2xl font-bold text-on-surface px-2">Coming Up</h2>
+<div class="bg-surface-container-low rounded-xl p-6 space-y-4">
+<!-- Appointment Item -->
+<div class="flex gap-4 p-4 bg-white rounded-lg shadow-sm">
+<div class="flex flex-col items-center justify-center bg-primary-container/20 px-3 py-2 rounded-lg text-primary">
+<span class="text-xs font-bold uppercase">Oct</span>
+<span class="text-xl font-extrabold">12</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">Pediatrician Visit</h4>
+<p class="text-xs text-on-surface-variant">2:30 PM • Dr. Lakshmi's Clinic</p>
+</div>
+</div>
+<!-- Reminder Item -->
+<div class="flex gap-4 p-4 bg-white rounded-lg shadow-sm">
+<div class="flex flex-col items-center justify-center bg-secondary-container/30 px-3 py-2 rounded-lg text-secondary">
+<span class="material-symbols-outlined" data-icon="vaccines">vaccines</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">Vitamin D Drops</h4>
+<p class="text-xs text-on-surface-variant">Daily Reminder • 8:00 PM</p>
+</div>
+</div>
+<!-- Community Support Card (Editorial Feel) -->
+<div class="relative mt-8 p-6 bg-[#6d4ea3] text-on-primary rounded-xl overflow-hidden">
+<div class="absolute -right-4 -bottom-4 opacity-20">
+<span class="material-symbols-outlined text-8xl" data-icon="favorite" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</div>
+<p class="text-sm font-medium mb-1">Maa Circle</p>
+<h4 class="text-lg font-bold mb-4">Join today's live yoga session for mothers.</h4>
+<button class="w-full py-3 bg-white text-primary rounded-full font-bold text-sm hover:bg-surface-bright transition-colors">
+                            Join Now
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-2 bg-white/20 dark:bg-slate-900/20 backdrop-blur-2xl border-t border-[#6d4ea3]/10 shadow-[0_-4px_24px_rgba(109,78,163,0.06)] rounded-t-[3rem]">
+
+<!-- Home (Dashboard) -->
+<a href="dashboard.html" class="flex flex-col items-center justify-center bg-gradient-to-br from-[#6d4ea3] to-[#c2a0fc] text-white rounded-full p-3 shadow-lg scale-90 duration-300 ease-out">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="text-[11px] font-semibold tracking-wide">Home</span>
+</a>
+
+<!-- Care -->
+<a href="care_guidance.html" class="flex flex-col items-center justify-center text-[#303335]/60 dark:text-slate-400 p-3 hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined">spa</span>
+<span class="text-[11px] font-semibold tracking-wide">Care</span>
+</a>
+
+<!-- Support -->
+<a href="support.html" class="flex flex-col items-center justify-center text-[#303335]/60 dark:text-slate-400 p-3 hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined">group</span>
+<span class="text-[11px] font-semibold tracking-wide">Support</span>
+</a>
+
+<!-- Resources -->
+<a href="resources.html" class="flex flex-col items-center justify-center text-[#303335]/60 dark:text-slate-400 p-3 hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="text-[11px] font-semibold tracking-wide">Resources</span>
+</a>
+
+</nav>
+<!-- Floating Action Button (FAB) - Suppression Logic applied as per rules for Home context -->
+<div class="fixed bottom-28 right-6 z-40">
+<button class="w-16 h-16 bg-gradient-to-br from-[#6d4ea3] to-[#c2a0fc] text-white rounded-full shadow-2xl flex items-center justify-center active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-3xl" data-icon="add">add</span>
+</button>
+</div>
+</body></html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-tint": "#6d4ea3",
+              "on-tertiary-fixed-variant": "#39636f",
+              "secondary-fixed-dim": "#f2cead",
+              "inverse-on-surface": "#9d9d9e",
+              "on-error-container": "#6e0523",
+              "error": "#a8364b",
+              "inverse-primary": "#c2a0fc",
+              "tertiary": "#3b6571",
+              "secondary": "#755a40",
+              "surface-container-lowest": "#ffffff",
+              "background": "#faf9fa",
+              "primary-fixed-dim": "#b493ed",
+              "tertiary-fixed-dim": "#b3deec",
+              "on-secondary-fixed": "#523b23",
+              "on-surface-variant": "#5c5f62",
+              "secondary-dim": "#684e35",
+              "outline": "#787b7d",
+              "secondary-container": "#ffdcbe",
+              "primary-container": "#c2a0fc",
+              "on-tertiary-fixed": "#1a4752",
+              "on-secondary-fixed-variant": "#71563d",
+              "on-secondary": "#fff7f4",
+              "on-background": "#303335",
+              "surface-container": "#edeef0",
+              "tertiary-dim": "#2f5965",
+              "surface-dim": "#d8dadd",
+              "on-primary-fixed-variant": "#46267a",
+              "on-primary": "#fef7ff",
+              "surface-container-high": "#e7e8ea",
+              "on-tertiary-container": "#2f5965",
+              "on-secondary-container": "#664d34",
+              "outline-variant": "#b0b2b5",
+              "surface": "#faf9fa",
+              "inverse-surface": "#0d0e0f",
+              "primary-fixed": "#c2a0fc",
+              "error-dim": "#6b0221",
+              "primary-dim": "#614296",
+              "surface-bright": "#faf9fa",
+              "error-container": "#f97386",
+              "surface-container-low": "#f3f3f5",
+              "primary": "#6d4ea3",
+              "surface-variant": "#e1e3e5",
+              "secondary-fixed": "#ffdcbe",
+              "on-primary-container": "#3d1c71",
+              "tertiary-container": "#c1ecfb",
+              "on-surface": "#303335",
+              "on-error": "#fff7f7",
+              "surface-container-highest": "#e1e3e5",
+              "on-tertiary": "#f0fbff",
+              "tertiary-fixed": "#c1ecfb",
+              "on-primary-fixed": "#22004f"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Be Vietnam Pro"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #faf9fa;
+        }
+        .editorial-shadow {
+            box-shadow: 0 24px 48px -12px rgba(109, 78, 163, 0.08);
+        }
+        .glass-nav {
+            background: rgba(250, 249, 250, 0.8);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="font-body text-on-surface">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-6 py-4 bg-[#faf9fa] dark:bg-slate-950/80 backdrop-blur-xl">
+<div class="flex items-center gap-3">
+<img alt="Arogya Maa Logo" class="h-10 w-auto object-contain" src="ArogyaMaa Logo.png">ArogyaMaa</span>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-full hover:bg-[#edeef0] transition-colors text-[#6d4ea3]">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+</div>
+</header>
+<main class="pt-24 pb-32 px-6 max-w-7xl mx-auto">
+<!-- Hero Editorial Section -->
+<section class="mb-12">
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-8 md:p-12 editorial-shadow">
+<div class="relative z-10 max-w-2xl">
+<span class="inline-block px-4 py-1 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold tracking-widest uppercase mb-4">Postpartum Care</span>
+<h2 class="text-4xl md:text-5xl font-extrabold text-on-surface font-headline leading-tight mb-6">
+                        Your Path to <span class="text-primary italic">Gentle Recovery</span>
+</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-8">
+                        The fourth trimester is a sacred time of transition. Nourish your body, center your mind, and honor the journey you've just completed.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-gradient-to-br from-[#6d4ea3] to-[#c2a0fc] text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:opacity-90 transition-opacity">
+                            View Daily Guide
+                        </button>
+</div>
+</div>
+<div class="absolute -right-20 -bottom-20 w-80 h-80 bg-tertiary-container rounded-full blur-3xl opacity-30"></div>
+<div class="absolute right-10 top-10 hidden lg:block">
+<img alt="Abstract Softness" class="w-64 h-80 object-cover rounded-xl rotate-3 shadow-2xl" data-alt="Soft focused image of white linen sheets and a single lavender sprig in a minimal ceramic vase, morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJIgZLA3NkuGbg-WUftQ8J2lfEFwUyCCUyeQVyUgObRPH0IjDiGz6ZwwefD8fm1EOV1DKQ1YS-r-PGwAOd5bm1qO30ux4i_Q-H4cn4eLLmIlxYN-dsNZOFkc7t1pz9moruu5FmzoXY3_p9Nj5uc1XqRF3Rx79Qn5jPsCLca6XoQWfxLjjkBn5LXqwGz7AgdZ9eIjGFWPn1X0NJgvcfe2v2dRZJESixqtug0LPTec9n5Wd4r_x2ou6Zu3aLMgzjN42IFT6NNBx6KkGs"/>
+</div>
+</div>
+</section>
+<!-- Interactive Recovery Milestones -->
+<section class="mb-16">
+<div class="flex items-end justify-between mb-8">
+<div>
+<h3 class="text-2xl font-bold font-headline text-on-surface">Recovery Milestones</h3>
+<p class="text-on-surface-variant">Tracking your progress through the first six weeks.</p>
+</div>
+<span class="text-primary font-bold">Week 2 of 6</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Milestone Cards -->
+<div class="bg-surface-container-lowest p-6 rounded-lg border-2 border-primary/20 flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center mb-4">
+<span class="material-symbols-outlined" data-icon="check" style="font-variation-settings: 'FILL' 1;">check</span>
+</div>
+<span class="font-bold text-sm mb-1">Week 1</span>
+<span class="text-xs text-on-surface-variant uppercase tracking-tighter">Initial Healing</span>
+</div>
+<div class="bg-surface-container p-6 rounded-lg flex flex-col items-center text-center border-2 border-transparent relative">
+<div class="absolute -top-3 -right-3 bg-secondary-container px-3 py-1 rounded-full text-[10px] font-bold text-on-secondary-container">ACTIVE</div>
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center mb-4">
+<span class="material-symbols-outlined" data-icon="schedule">schedule</span>
+</div>
+<span class="font-bold text-sm mb-1">Week 2</span>
+<span class="text-xs text-on-surface-variant uppercase tracking-tighter">Energy Levels</span>
+</div>
+<div class="bg-surface-container-low p-6 rounded-lg flex flex-col items-center text-center opacity-60">
+<div class="w-12 h-12 rounded-full bg-surface-variant text-on-surface-variant flex items-center justify-center mb-4">
+<span class="material-symbols-outlined" data-icon="lock">lock</span>
+</div>
+<span class="font-bold text-sm mb-1">Week 4</span>
+<span class="text-xs text-on-surface-variant uppercase tracking-tighter">Gentle Mobility</span>
+</div>
+<div class="bg-surface-container-low p-6 rounded-lg flex flex-col items-center text-center opacity-60">
+<div class="w-12 h-12 rounded-full bg-surface-variant text-on-surface-variant flex items-center justify-center mb-4">
+<span class="material-symbols-outlined" data-icon="lock">lock</span>
+</div>
+<span class="font-bold text-sm mb-1">Week 6</span>
+<span class="text-xs text-on-surface-variant uppercase tracking-tighter">Final Checkup</span>
+</div>
+</div>
+</section>
+<!-- Recovery Categories - Bento Grid -->
+<section class="mb-16">
+<h3 class="text-2xl font-bold font-headline text-on-surface mb-8">Guidance Categories</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Physical Health Card -->
+<div class="md:col-span-2 group cursor-pointer">
+<div class="relative h-full overflow-hidden rounded-xl bg-tertiary-container/30 transition-transform duration-500 hover:-translate-y-2">
+<div class="p-8 h-full flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-tertiary text-3xl" data-icon="spa">spa</span>
+</div>
+<h4 class="text-2xl font-bold font-headline text-on-tertiary-fixed mb-4">Physical Restoration</h4>
+<ul class="space-y-3 mb-8">
+<li class="flex items-center gap-3 text-on-tertiary-fixed-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                                        Pelvic floor rehabilitation exercises
+                                    </li>
+<li class="flex items-center gap-3 text-on-tertiary-fixed-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                                        Post-surgical incision care
+                                    </li>
+<li class="flex items-center gap-3 text-on-tertiary-fixed-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                                        Managing physical fatigue
+                                    </li>
+</ul>
+</div>
+<div class="flex items-center text-tertiary font-bold gap-2">
+                                Explore Guides <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<div class="absolute right-0 bottom-0 opacity-20 transform translate-x-1/4 translate-y-1/4">
+<span class="material-symbols-outlined text-[200px]" data-icon="healing">healing</span>
+</div>
+</div>
+</div>
+<!-- Nutrition Card -->
+<div class="group cursor-pointer">
+<div class="relative h-full overflow-hidden rounded-xl bg-secondary-container/30 transition-transform duration-500 hover:-translate-y-2">
+<div class="p-8 flex flex-col h-full">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="restaurant">restaurant</span>
+</div>
+<h4 class="text-2xl font-bold font-headline text-on-secondary-container mb-4">Postpartum Nutrition</h4>
+<p class="text-on-secondary-fixed-variant mb-6">Healing foods rich in iron, protein, and essential hydration for recovery.</p>
+<div class="mt-auto">
+<button class="w-full py-3 bg-white/50 backdrop-blur rounded-full font-bold text-on-secondary-container hover:bg-white transition-colors">Meal Plans</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Emotional Wellbeing Card -->
+<div class="group cursor-pointer">
+<div class="relative h-full overflow-hidden rounded-xl bg-primary-container/20 transition-transform duration-500 hover:-translate-y-2">
+<div class="p-8 flex flex-col h-full">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center mb-6 shadow-sm">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="favorite">favorite</span>
+</div>
+<h4 class="text-2xl font-bold font-headline text-on-primary-container mb-4">Emotional Support</h4>
+<p class="text-on-primary-fixed-variant mb-6">Navigating the 'baby blues', hormone shifts, and mental self-care.</p>
+<div class="mt-auto">
+<button class="w-full py-3 bg-primary text-on-primary rounded-full font-bold shadow-lg shadow-primary/20">Talk to Support</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Resources Mini-Bento -->
+<div class="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="bg-surface-container-low p-6 rounded-lg flex items-center gap-4 hover:bg-surface-container transition-colors">
+<div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-tertiary" data-icon="play_circle">play_circle</span>
+</div>
+<div>
+<h5 class="font-bold text-on-surface">Video: First 48 Hours</h5>
+<p class="text-xs text-on-surface-variant">Step-by-step hospital recovery</p>
+</div>
+</div>
+<div class="bg-surface-container-low p-6 rounded-lg flex items-center gap-4 hover:bg-surface-container transition-colors">
+<div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary" data-icon="description">description</span>
+</div>
+<div>
+<h5 class="font-bold text-on-surface">Health Checklist</h5>
+<p class="text-xs text-on-surface-variant">Symptoms that need attention</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Supportive Community Highlight -->
+<section class="mb-8 p-1 rounded-xl bg-gradient-to-r from-primary-container/40 via-secondary-container/40 to-tertiary-container/40">
+<div class="bg-surface-container-lowest rounded-lg p-8 flex flex-col md:flex-row items-center gap-8">
+<div class="w-32 h-32 flex-shrink-0 rounded-full overflow-hidden border-4 border-white shadow-xl">
+<img alt="Support Group" class="w-full h-full object-cover" data-alt="Group of smiling diverse mothers sitting together in a bright, cozy living room sharing a moment of connection" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPcVmdh5k1fO6SRR-Q-lpDWqoNUixySL2ztJHGCLbfASDhWKnvJd-v7vZBoOPZTi1TUM6juMOMAcO2SXx7ODJdEmkdUjoL2znYDRzR5V949iKbgjgrYU6NtnKmEG5fkfiKWv43MEeg1LtqQ15-lRL--31q0vhoUvNuTQxS0LjW1-eSMURtOJCuT3MCJjy9wqPFuV-8yD9FrBf-PDOFOGcg88ZnOj_zQxyLJLu556YaC8GwJ4FoNSsbnrUjsswc9cyr-7gbXHbGNRiS"/>
+</div>
+<div>
+<h4 class="text-2xl font-bold font-headline text-on-surface mb-2">You're not alone in this.</h4>
+<p class="text-on-surface-variant mb-6">Join our moderated support circles to talk with other mothers who are in the same stage of recovery as you.</p>
+<button class="flex items-center gap-2 font-bold text-primary group">
+                        Browse Support Groups
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-2 bg-white/30 backdrop-blur-2xl rounded-t-[3rem] border-t border-[#6d4ea3]/10">
+
+<!-- HOME -->
+<a href="dashboard.html" class="flex flex-col items-center justify-center text-gray-500">
+    <span class="material-symbols-outlined">home</span>
+    <span class="text-[11px] font-semibold">Home</span>
+</a>
+
+<!-- CARE (ACTIVE) -->
+<a href="care_guidance.html" class="flex flex-col items-center justify-center relative group">
+    
+    <!-- ACTIVE BACKGROUND -->
+    <div class="absolute -top-2 w-14 h-14 bg-gradient-to-br from-[#6d4ea3] to-[#c2a0fc] rounded-full z-0"></div>
+    
+    <span class="material-symbols-outlined text-white z-10" style="font-variation-settings:'FILL' 1;">spa</span>
+    <span class="text-[11px] font-semibold text-white z-10">Care</span>
+</a>
+
+<!-- SUPPORT -->
+<a href="support.html" class="flex flex-col items-center justify-center text-gray-500">
+    <span class="material-symbols-outlined">group</span>
+    <span class="text-[11px] font-semibold">Support</span>
+</a>
+
+<!-- RESOURCES -->
+<a href="resources.html" class="flex flex-col items-center justify-center text-gray-500">
+    <span class="material-symbols-outlined">menu_book</span>
+    <span class="text-[11px] font-semibold">Resources</span>
+</a>
+
+</nav>
+</body></html>
